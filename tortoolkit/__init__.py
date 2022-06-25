@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 __version__ = "0.2.6-heroku-master"
-__author__ = "AmirulAndalib [amirulandalib@github]"
+__author__ = "MSG LEECH"
 
 import logging
 
