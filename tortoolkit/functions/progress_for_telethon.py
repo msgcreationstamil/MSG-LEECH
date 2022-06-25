@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# (c) YashDK [yash-dk@github]
-# (c) modified by AmirulAndalib [amirulandalib@github]
 
 import logging
 import math
@@ -23,7 +21,7 @@ async def progress(
             # dirty alt. was not able to find something to stop upload
             # todo inspect with "StopAsyncIteration"
             if updb.get_cancel_status(cancel_msg.chat_id, cancel_msg.id):
-                raise Exception("cancel the upload")
+                raise Exception("cancel the upload 🥺")
 
         # if round(current / total * 100, 0) % 5 == 0:
         percentage = current * 100 / total
