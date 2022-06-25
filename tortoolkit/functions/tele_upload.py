@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# (c) YashDK [yash-dk@github]
-# (c) modified by AmirulAndalib [amirulandalib@github]
 
 import asyncio
 import logging
@@ -54,10 +52,10 @@ async def upload_handel(
         # Central object is not used its Acknowledged
         updb = TtkUpload()
 
-    # logging.info("Uploading Now:- {}".format(path))
+    # logging.info("Uploading Now ⚡:- {}".format(path))
 
     if os.path.isdir(path):
-        logging.info("Uploading the directory:- {}".format(path))
+        logging.info("Uploading the directory 🔥:- {}".format(path))
 
         directory_contents = os.listdir(path)
         directory_contents.sort()
