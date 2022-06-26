@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# (c) YashDK [yash-dk@github]
-# (c) modified by AmirulAndalib [amirulandalib@github]
 
 import asyncio
 import json
@@ -626,7 +624,7 @@ async def print_files(e, files):
 
     for i in files.keys():
         link = f"https://t.me/c/{str(chat_id)[4:]}/{files[i]}"
-        msg += f'🚩 <a href="{link}">{i}</a>\n'
+        msg += f'💙 <a href="{link}">{i}</a>\n'
 
     rmsg = await e.client.get_messages(e.chat_id, ids=e.message_id)
     rmsg = await rmsg.get_reply_message()
