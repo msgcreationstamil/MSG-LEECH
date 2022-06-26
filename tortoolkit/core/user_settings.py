@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# (c) YashDK [yash-dk@github]
-# (c) modified by AmirulAndalib [amirulandalib@github]
 
 import asyncio as aio
 import configparser
@@ -29,7 +27,7 @@ no = "❌"
 yes = "✅"
 # Central object is not used its Acknowledged
 tordb = TorToolkitDB()
-header = '<b>TorToolKitX by <a href="https://github.com/XcodersHub/TorToolkitX">XcodersHub</a></b>\n<u>USER SETTINGS MENU - v1</u>'
+header = '<b>TorToolKit by <a href="https://github.com/msgsubusurya/MSG">MSG LEECH</a></b>\n<u>USER SETTINGS MENU - v1</u>'
 
 
 async def handle_user_setting_callback(e):
