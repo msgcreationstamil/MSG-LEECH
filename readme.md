@@ -6,7 +6,7 @@ The bot gets started with minimum variables and others can be set as and when ne
 ## Use master branch if you encounter some issues and report the same.
 ## Use beta branch if you want to try latest features.
 
-## For any help join this:- [Xcodershub](https://t.me/XcodersHub)
+## For any help join this:- [MSG CREATION TAMIL](https://github.com/msgsubusurya)
 
 ## Whats new
 - MegaDL added
