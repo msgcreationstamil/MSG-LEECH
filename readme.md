@@ -1,4 +1,4 @@
-# [Join XcodersHub Group for DEMO](https://t.me/XcodersHubSupport)
+
 
 # TorToolkit Telegram
 So basically Tortoolkit is aimed to be the most versatile torrent leecher and Youtube-DL bot for telegram. This bot is highly customizable and to customize this bot you don't need to restart the bot every time. 
