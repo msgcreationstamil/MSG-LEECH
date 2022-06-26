@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# (c) YashDK [yash-dk@github]
-# (c) modified by AmirulAndalib [amirulandalib@github]
 
 import asyncio
 import logging
@@ -37,7 +35,7 @@ p { font-size: 12px; margin: 24px;}
 </style>
 </head>
 <body>
-<h1>👇Select the Files that you want to Be downloaded from Below 👇</h1>
+<h1>💙 MSG CREATIONS TAMIL 💙</h1>
 <form action="{form_url}" method="POST">
 
 {My_content}
@@ -110,7 +108,7 @@ code_page = """
 <head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <title>
-TorToolKitX Torrent Files
+TorToolKiT MSG CREATION TAMIL 💙
 </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
