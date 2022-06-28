@@ -1,8 +1,7 @@
 {
   "name": "MSG LEECH",
-  "description": "Telegram's telethon based publicLeech bot",
+  "description": "Telegram's phython based msg leech bot",
   "keywords": [
-    "multi",
     "purpose",
     "ytdl",
     "ffmpeg",
@@ -42,8 +41,8 @@
       "required": false
     },
     "OWNER_ID": {
-      "description": "Should force evething uploaded into Document",
-      "value": "190"
+      "description": " The Owner id get from @missrose",
+      "value": ""
     },
     "COMPLETED_STR": {
       "description": "Chracter to use as a completed progress",
@@ -81,7 +80,7 @@
     {
       "plan": "heroku-postgresql",
       "options": {
-        "version": "14"
+        "version": "12"
       }
     }
   ]
