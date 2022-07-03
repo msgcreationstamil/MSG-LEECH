@@ -923,12 +923,11 @@ def term_handler(signum, frame, client):
 
     client.loop.run_until_complete(term_async())
 
-from PIL import Image
-
 async def booted(client):
     chats = get_val("ALD_USR")
     for i in chats:
         try:
+            from PIL import Image
             await client.send_message(i, "The bot is booted 🚀 and is ready to use.")
         except Exception:
             torlog.info(f"Not found the entity {i}")
