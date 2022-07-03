@@ -809,11 +809,11 @@ async def about_me(message):
     diff = Human_Format.human_readable_timedelta(diff)
 
     msg = (
-        "<b>Name</b>: <code>TorToolkitX-Heroku</code>\n"
+        "<b>Name</b>: <code>MSG-LEECH</code>\n"
         f"<b>Version</b>: <code>{__version__}</code>\n"
         f"<b>Telethon Version</b>: {telever}\n"
         f"<b>Pyrogram Version</b>: {pyrover}\n"
-        "<b>Modified By</b>: @XcodersHub\n\n"
+        "<b>Modified By</b>: @msgsurya\n\n"
         "<u>Currents Configs:-</u>\n\n"
         f"<b>Bot Uptime:-</b> {diff}\n"
         "<b>Torrent Download Engine:-</b> <code>qBittorrent [4.3.0 fix active]</code> \n"
@@ -923,12 +923,13 @@ def term_handler(signum, frame, client):
 
     client.loop.run_until_complete(term_async())
 
+from PIL import Image
 
 async def booted(client):
     chats = get_val("ALD_USR")
     for i in chats:
         try:
-            await client.send_message(i, "The bot is booted and is ready to use.")
+            await client.send_message(i, "The bot is booted 🚀 and is ready to use.")
         except Exception:
             torlog.info(f"Not found the entity {i}")
 
