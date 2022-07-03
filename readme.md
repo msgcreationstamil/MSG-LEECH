@@ -261,7 +261,7 @@ Steps:-
 
 ## Commands
 
-    leech - To Leech a torrent or download a direct link
+    leech - To Leech a torrent or download a direct link 
     ytdl - Donwload YouTube Video
     pytdl - Download YouTube Playlist
     about - About the bot
@@ -272,12 +272,12 @@ Steps:-
     instadl - Instagram Post/Reel/IGTV download
     setthumb - Set the thumbnail
     clearthumb - Clear the thumbnail
-    speedtest - Testing internet speed host
-    settings - Settings of the bot ⚠️ Admin Only
-    pauseall - Pause all torrents⚠️ Admin Only
-    resumeall - Resume all torrents⚠️ Admin Only
-    purge - Delete all torrents ⚠️ Admin Only
-    getlogs - Get the robot logs ⚠️ Admin Only
+    speedtest - Testing internet speed host💨
+    settings - Settings of the bot⚠️Admin Only
+    pauseall - Pause all torrents⚠️Admin Only
+    resumeall - Resume all torrents⚠️Admin Only
+    purge - Delete all torrents⚠️Admin Only
+    getlogs - Get the robot logs⚠️Admin Only
      
 
 # Credits
