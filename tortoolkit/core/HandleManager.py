@@ -641,7 +641,7 @@ async def set_password_zip(message):
 
 
 async def start_handler(event):
-    msg = "Hello This is TorToolkit Mod on heroku Deployable Mod <a href='https://github.com/yash-dk/TorToolkit-Telegram'>This Repo</a>. 🧑🏻‍💻ᴅᴇᴠᴇʟᴏᴘᴇʀ ʙʏ: @SUBATHEESHVARAN. 💰ᴘᴏᴡᴇʀᴇᴅ ʙʏ: @MSGSURYA."
+    msg = "Hello This is TorToolkit Mod on heroku Deployable Mod <a href='https://github.com/yash-dk/TorToolkit-Telegram'>This Repo</a>.     🧑🏻‍💻ᴅᴇᴠᴇʟᴏᴘᴇʀ ʙʏ: @SUBATHEESHVARAN.     💰ᴘᴏᴡᴇʀᴇᴅ ʙʏ: @MSGSURYA."
     await event.reply(msg, parse_mode="html")
 
 
@@ -927,7 +927,6 @@ async def booted(client):
     chats = get_val("ALD_USR")
     for i in chats:
         try:
-            from PIL import Image
             await client.send_message(i, "The bot is booted 🚀 and is ready to use.")
         except Exception:
             torlog.info(f"Not found the entity {i}")
