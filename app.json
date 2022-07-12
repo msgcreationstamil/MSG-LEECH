@@ -73,6 +73,10 @@
       "description": "Max size of the torrent allowed",
       "value": "10",
       "required": false
+    },
+    "BOT_CMD_POSTFIX": {
+      "description":"/leech@TorToolkitBot so the value will be @TorToolkitBot",
+      "required":false
     }
   },
  "stack": "container",
