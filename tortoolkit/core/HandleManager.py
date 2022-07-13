@@ -642,7 +642,7 @@ async def set_password_zip(message):
 
 
 async def start_handler(event):
-    msg = "Hello This is TorToolkit Mod on heroku Deployable Mod <a href='https://github.com/yash-dk/TorToolkit-Telegram'>This Repo</a>.               [KeyboardButtonCallback("To Join GitHub", https://github.com/msgcreationstamil/MSG-LEECH/edit/beta/tortoolkit/core/HandleManager.py)]"
+    msg = "Hello This is TorToolkit Mod on heroku Deployable Mod <a href='https://github.com/yash-dk/TorToolkit-Telegram'>This Repo</a>.               [KeyboardButtonCallback("To Join GitHub", https://github.com/msgcreationstamil/MSG-LEECH)]"
     await event.reply(msg, parse_mode="html")
 
 
