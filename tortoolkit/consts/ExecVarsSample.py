@@ -6,17 +6,17 @@ except:
         # Set true if its VPS
         IS_VPS = False
 
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
+        API_HASH = "cc7024868cba8df36869160d7f893ef0"
+        API_ID = 6805787
+        BOT_TOKEN = "5479927289:AAFO_5rxUkyh7eDqkhfxltnf-NBsUrOFLF0"
         BASE_URL_OF_BOT = ""
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [-1001714970917]
+        OWNER_ID = 1984923207
 
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -78,7 +78,7 @@ except:
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
-        BOT_CMD_POSTFIX = ""
+        BOT_CMD_POSTFIX = "@msgsuryabot"
 
         # Time out for the status Delete.
         STATUS_DEL_TOUT = 20
